@@ -1,0 +1,30 @@
+*{
+ 
+}
+
+.error{
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: #2E3032;
+    background: #F2F2F2;
+}
+.pice{
+    width: 316px;
+    height: 290px;
+    margin: auto;
+}
+.pr{
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pr img{
+    
+    width: 140px;
+    height: 30px;
+}

@@ -1,0 +1,103 @@
+.sidemain{
+    padding: 30px 5px 0px 5px;
+}
+
+.smaine{
+    display: flex;
+    flex-wrap: wrap;
+}
+.s2ma{
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #FBFBFB;
+border-radius: 20px;
+    padding: 0px 0px 0px 20px;
+    margin: 6px;
+}
+.projec{
+    color: #CFCFD9;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}
+.fif{
+    margin-top: 5px;
+    border-left: 2px solid #099AE0;
+    color: #1C274C;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+width: 60px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.flie{
+display: flex;
+justify-content: space-between;
+padding: 5px 12px;
+}
+.firss{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13.5294px;
+    color: #363F5E;
+}
+.firsss{
+
+}
+
+/* this is the code for the below end of the side bar */
+.mainn{
+display: flex;
+padding: 0px 10px;
+}
+.imag3{
+
+}
+.chilll{
+
+}
+.lily{
+    padding: 10px 0px 0px 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+color: #363F5E;
+}
+.today{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.8235px;
+    color: #4CAF50;
+}
+.comme{
+    padding: 10px 0px 0px 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.8235px; 
+    color: #363F5E;
+}
+.colo{
+    color:#69D0CA;
+}
+.thats{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.8235px;
+    color: #1C274C;
+    padding: 10px 0px 0px 20px;
+}
+
+

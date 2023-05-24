@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: local("Gilroy-Medium"),
+      url("../../asserts/font/Fonts/Gilroy/Gilroy-Bold.ttf") format("opentype") 
+}
+*{
+    font-family: "Gilroy-Medium"; 
+}
+.dmain{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 0px 40px;
+    align-items: center;
+    font-family: "Gilroy-Medium";
+}
+.dimg1 img{
+height: 20px;
+width: 100px;
+}
+.ddas{
+    /* font-family: 'Montserrat'; */
+    font-family: "Gilroy-Medium";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.ser input{
+    font-family: "Gilroy-Medium";
+    padding: 10px 10px 10px 20px;
+    width: 240px;
+height: 14px;
+border-radius: 16px;
+background: #FBFBFB;
+border-radius: 16px;
+border: none;
+outline: none;
+}
+.ser input::placeholder{
+    font-size: 16px;
+    color: #1C274C;
+    opacity: 0.4;
+}
+.ser img{
+    position: relative;
+    top: 5px;
+    left: -40px;
+}
+.dic{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dic img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px 10px 15px;
+    gap: 10px;
+    border-radius: 100px;
+    width: 126px;
+    height: 19px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #4CAF50;
+}
+.dani{
+display: flex;
+}
+.name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0D062D;
+     padding-right: 10px;
+}
+.da{
+color: #787486;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.noti{
+   margin: 10px 0px 0px 15px;
+}
+
+/* code for exported componet */
+
+
+.na{
+    display: flex;
+}
+.slider{
+
+}
+.maicard{
+    margin-top: 40px;
+    padding: 50px 20px 0px 20px;
+    background: #FBFBFB;
+border-radius: 20px;
+width: 900px;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.side2{
+    margin-top: 40px;
+    width: 320px;
+}

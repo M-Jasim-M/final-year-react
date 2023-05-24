@@ -1,0 +1,86 @@
+.jmain2{
+display: flex;
+}
+.che2{
+    width:40%;
+    padding-inline: 100px;
+    padding-top: 70px;
+}
+.create{
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: #1C274C;
+}
+.enter{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1C274C;
+    opacity: 0.6;
+
+}
+.jmain2 form{
+    padding-top: 15px;
+}
+.jmain2 input{
+    width: 403px;
+    height: 56px;
+    background: #FBFBFB;
+    border-radius: 16px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+    text-indent: 20px;
+}
+
+.jmain2 input::placeholder{
+
+}
+
+
+
+
+.ba3{
+width: 320px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.mea{
+   margin: 10px 0px 0px 5px;
+display: flex;
+width: 140.97px;
+height: 30px;
+background: #FBFBFB;
+border-radius: 50px;
+justify-content: center;
+align-items: center;
+}
+.abc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1C274C;
+}
+.ices{
+padding-left: 20px;
+}
+.but3 button{
+    background: #4CAF50;
+border-radius: 10px;
+width: 405px;
+height: 56px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+border: none;
+align-items: center;
+color: #FFFFFF;
+font-size: 14px;
+margin-top: 30px;
+}
+
+

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: local("Gilroy-Medium"),
+      url("../../asserts/font/Fonts/Gilroy/Gilroy-Bold.ttf") format("opentype") 
+}
+
+.card{
+    font-family: "Gilroy-Medium"; 
+ width: 200px;
+ height: 190px;
+ background-color: white;
+ padding: 10px;
+ border-radius: 24.7788px;
+ display: flex;
+flex-direction: column;
+padding-inline: 32px;
+margin: 12px;
+}
+.had{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ch2{
+    padding: 10px 0px 10px 0px;
+    /* font-family: 'Montserrat'; */
+    font-family: "Gilroy-Medium"; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1C274C;
+}
+.ch3{
+font-size: 17px;
+}
+.wire{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #787878;
+    
+}
+.team{
+    padding: 10px 0px 10px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.3894px;
+    line-height: 15px;
+    color: #CFCFD9;
+}
+.images{
+
+}
+.dis{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+.pl1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #89D6CB;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12.3894px;
+width: 88.35px;
+height: 26.35px;
+
+background: rgba(137, 214, 203, 0.2);
+border-radius: 61.9469px;
+}
+.pl2{
+    padding-top: 7px;
+    color: #CFCFD9;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 9.9115px;
+}
+.dis2{
+display: flex;
+justify-content: space-between;
+}
+.pla{
+    color: #CFCFD9;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12.3894px
+}
+.ple{
+
+}
+
+
+

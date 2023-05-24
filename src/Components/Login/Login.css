@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: local("Gilroy-Medium"),
+      url("../../asserts/font/Fonts/Gilroy/Gilroy-Bold.ttf") format("opentype") 
+}
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: "Gilroy-Medium";
+}
+body{
+    font-family: "Gilroy-Medium";
+}
+.main1{
+display: flex;
+
+flex-wrap: wrap;
+}
+
+
+
+.child1{
+    background: #F2F2F2;
+    padding: 30px 0px 0px 100px;
+    /* width: 640px; */
+    width: 570px;
+height: 768px;
+
+}
+.proj img{
+    width: 123.28px;
+    height: 23.91px;
+}
+.wel{
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    word-spacing: 2px;
+    padding: 20px 0px 0px 0px;
+}
+.pic img{
+padding: 20px 0px 0px 70px;
+Width:300.36px;
+Height:250.36px;
+}
+
+.child2{
+    background: white;
+    /* width: 640px; */
+    width: 30%;
+    padding-top: 20px;
+    height: 100vh;
+    padding-inline: 100px;
+
+}
+.sign{
+    font-family: "Gilroy-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color:  #2E3032;
+}
+.enter{
+    color:#2E3032;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+padding: 10px 0px 10px 0px;
+}
+form{
+
+}
+.emi{
+color:#2E3032;
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+padding: 30px 0px 0px 0px;
+}
+form input{
+    width: 403px;
+height: 56px;
+background: #FBFBFB;
+border-radius: 16px;
+border: none;
+margin: 10px 0px 10px 0px;
+text-indent: 80px;
+
+}
+form input:focus{
+outline: none;
+}
+form input::placeholder{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #2E3032;
+}
+.pas{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    color:#2E3032;
+    padding: 10px 0px 0px 0px;
+}
+.con{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    color:#2E3032;
+    padding: 10px 0px 0px 0px;
+}
+.but button{
+    width: 403px;
+    height: 56px;
+    background: #4F2ED3;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+border: none;
+}
+
+.button{
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    color: #2E3032;
+    text-decoration: none;
+    padding: 0px 0px 0px 60px;
+}
+.button a{
+text-decoration: none;
+}
+
+.check{
+color: red;
+}
+.main0{
+    display: flex;
+}
+.ch1{
+    display: flex;
+}
+
+.sho{
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    padding: 9px 0px 0px 5px;
+}
+
+.reset{
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    padding: 10px 0px 0px 130px;
+    color: #4F2ED3;
+}
+
+
+.gmi{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    width: 100px;
+}
+
+ @media (max-width:320px){
+
+
+.child1{
+    width: 100%;
+    height: 420px;
+    padding: 20px;
+}
+.wel{
+    font-size: 40px;
+}
+.pic img{
+    width:200px;
+}
+.child2{
+    width: 100%;
+    padding: 20px;
+} 
+.enter{
+    font-size: 16px;
+}
+form input{
+    width: 280px;
+height:56px;
+}
+.but button{
+    width: 280px;
+}
+
+}
+
+@media (max-width:380px){
+.child1{
+    padding: 20px;
+}
+.child2{
+    padding: 20px;
+}
+form input{
+    width: 360px;
+height:56px;
+}
+.but button{
+    width: 360px;
+}
+}
+
+@media (max-width:768px){
+    .child1{
+        /* padding: 20px; */
+        width: 100%;
+    }
+    .child2{
+        /* padding: 20px; */
+        width: 100%;
+    }
+    form input{
+        /* width: 360px;
+    height:56px; */
+    width: 480px;
+    }
+    .but button{
+        /* width: 360px; */
+        width: 480px;
+    }
+    }
+    @media (max-width:1030px){
+        .child1{
+            width:375px;
+        }
+        .child2{
+            width: 349px;
+        }
+    }
