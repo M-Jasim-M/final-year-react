@@ -8,6 +8,7 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import Join from './Components/Joins/Join';
 import Join2 from './Components/Joins/Join2';
 import Popup from './Components/Popupdash/Popup';
+import Kdash from './Components/kdash/Kdash';
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
     <Route path='/join' element={<Join/>}/>
     <Route path='/join2' element={<Join2/>}/>
     <Route path='/newdash' element={<Popup/>}/>
+    <Route path='/kdash' element={<Kdash/>}/>
     <Route path='*' element={<Error/>}/>
     </Routes>
     </BrowserRouter>

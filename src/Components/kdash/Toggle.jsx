@@ -1,30 +1,5 @@
-// import React from 'react'
-// import './Side.css'
-// export default function Sidebar() {
-//   return (
-//     <>
-//     <div className='sbar'>
-//      <div className='simg'>
-//      <img src='p2.png'/>
-//      <img src='p3.svg'/>
-//      <img src='p4.png'/>
-//      <img src='p5.png'/>
-
-//      </div>
-
-//     <div className='bimg'>
-//     <img src='Settings.png'/>
-//      <img src='Logout.png'/>
-//     </div>
-
-
-//     </div>
-//     </>
-//   )
-// }
-
 import React, { useState } from "react";
-import "./Side.css";
+import "./Kdash.css";
 
 const ToggleSidebar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,27 +10,10 @@ const ToggleSidebar = () => {
 
     return (
         <div className="container-fluid mt-3">
-          <div className='sbar'>
-     <div className='simg'>
-      <img src='p2.png'/>
-     <img src='p3.svg'/>
-     <img src='p4.png'/>
-      <img src='p5.png'/>
-
-      </div>
-
-     <div className='bimg'>
-    <img src='Settings.png'/>
-     <img src='Logout.png'/>
-    </div>
-
-
-    </div>
             <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-md">
                     <div className="form-inline ml-auto">
                         <div className="btn btn-primary" onClick={toggleSidebar}>
                             {/* <i className="fa fa-bars"></i> */}
-                        
                             ///
                     </div>
                 </div>
@@ -68,22 +26,16 @@ const ToggleSidebar = () => {
                     </div>
                 </div>
                 <div className="sd-body">
-                <div className='jsbare'>
-     <div className='simg'>
-      <img src='p2.png'/>
-     <img src='p3.svg'/>
-     <img src='p4.png'/>
-      <img src='p5.png'/>
-
-      </div>
-
-     <div className='bimg'>
-    <img src='Settings.png'/>
-     <img src='Logout.png'/>
-    </div>
-
-
-    </div>
+                    <ul>
+                        <li><a className="sd-link">Menu Item 1</a></li>
+                        <li><a className="sd-link">Menu Item 2</a></li>
+                        <li><a className="sd-link">Menu Item 3</a></li>
+                        <li><a className="sd-link">Menu Item 4</a></li>
+                        <li><a className="sd-link">Menu Item 5</a></li>
+                        <li><a className="sd-link">Menu Item 6</a></li>
+                        <li><a className="sd-link">Menu Item 7</a></li>
+                        <li><a className="sd-link">Menu Item 8</a></li>
+                    </ul>
                 </div>
             </div>
             <div className={`sidebar-overlay ${isOpen ? 'active' : ''}`} onClick={toggleSidebar}></div>
