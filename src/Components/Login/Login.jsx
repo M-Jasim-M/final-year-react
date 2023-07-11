@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import './Login.css'
 
 const Signup = () => {
@@ -69,9 +69,9 @@ const Signup = () => {
           </div>
         </form><br/><br/>
 
-        <div className="button">
+        {/* <div className="button">
         Already Have An Account? <NavLink to="/signin">LOGIN</NavLink>
-        </div>
+        </div> */}
       </div>
     </div>
   );
